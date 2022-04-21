@@ -62,7 +62,12 @@ export class PostgresDialect extends Dialect {
   functionInfo: Record<string, FunctionInfo> = {};
 
   quoteTableName(tableName: string): string {
-    return `${tableName}`;
+    const [schema, table] = tableName.split(".");
+    if (table !== undefined && !table.startsWith('"')) {
+      return `${schema}.${this.sqlMaybeQuoteIdentifier(table)}`;
+    } else {
+      return `${tableName}`;
+    }
   }
 
   sqlGroupSetTable(groupSetCount: number): string {
