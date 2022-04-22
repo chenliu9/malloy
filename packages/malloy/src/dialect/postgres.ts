@@ -61,13 +61,11 @@ export class PostgresDialect extends Dialect {
   divisionIsInteger = true;
   functionInfo: Record<string, FunctionInfo> = {};
 
-  quoteTableName(tableName: string): string {
-    const [schema, table] = tableName.split(".");
-    if (table !== undefined && !table.startsWith('"')) {
-      return `${schema}.${this.sqlMaybeQuoteIdentifier(table)}`;
-    } else {
-      return `${tableName}`;
-    }
+  quoteTablePath(tablePath: string): string {
+    return tablePath
+      .split(".")
+      .map((part) => `"${part}"`)
+      .join(".");
   }
 
   sqlGroupSetTable(groupSetCount: number): string {
