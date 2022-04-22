@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-import { DataColumn, Field, Explore } from "@malloydata/malloy";
+import { DataColumn, Field, Explore } from "@chenliu9/malloy";
 import { StyleDefaults } from "../data_styles";
 import { ContainerRenderer } from "./container";
 import { createErrorElement, yieldTask } from "./utils";

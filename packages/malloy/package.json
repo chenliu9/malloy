@@ -1,5 +1,5 @@
 {
-  "name": "@malloydata/malloy",
+  "name": "@chenliu9/malloy",
   "version": "0.0.1",
   "license": "GPL-2.0",
   "main": "dist/index.js",
@@ -25,5 +25,13 @@
     "@types/luxon": "^1.26.4",
     "antlr4ts-cli": "^0.5.0-alpha.4",
     "path": "^0.12.7"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenliu9/malloy.git",
+    "directory": "packages/malloy"
   }
 }

@@ -43,12 +43,12 @@ axios.defaults.timeout = 500000;
 axios.defaults.httpsAgent = new https.Agent({ keepAlive: true });
 
 const malloyPackages = [
-  "@malloydata/malloy",
-  "@malloydata/render",
+  "@chenliu9/malloy",
+  "@chenliu9/render",
   "malloy-vscode",
-  "@malloydata/db-test",
-  "@malloydata/db-bigquery",
-  "@malloydata/db-postgres",
+  "@chenliu9/db-test",
+  "@chenliu9/db-bigquery",
+  "@chenliu9/db-postgres",
 ];
 
 // licenses that we would need to mirror source for, if we included (we don't today)

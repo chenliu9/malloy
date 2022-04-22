@@ -16,8 +16,8 @@
     "samples"
   ],
   "scripts": {
-    "clean": "yarn workspace @malloydata/malloy clean && yarn tsc --build --clean",
-    "build": "yarn workspace @malloydata/malloy build-parser && yarn tsc --build",
+    "clean": "yarn workspace @chenliu9/malloy clean && yarn tsc --build --clean",
+    "build": "yarn workspace @chenliu9/malloy build-parser && yarn tsc --build",
     "package-extension": "yarn build && yarn workspace malloy-vscode package-extension",
     "lint": "yarn eslint '**/*.ts{,x}'",
     "test": "yarn jest",
@@ -34,9 +34,9 @@
   },
   "devDependencies": {
     "@jest/globals": "^26.6.2",
-    "@malloydata/db-bigquery": "*",
-    "@malloydata/malloy": "*",
-    "@malloydata/render": "*",
+    "@chenliu9/db-bigquery": "*",
+    "@chenliu9/malloy": "*",
+    "@chenliu9/render": "*",
     "@types/archiver": "^5.3.1",
     "@types/jest-expect-message": "^1.0.3",
     "@types/md5": "^2.3.1",

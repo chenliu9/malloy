@@ -15,7 +15,7 @@ import {
   DataColumn,
   DateTimeframe,
   TimestampTimeframe,
-} from "@malloydata/malloy";
+} from "@chenliu9/malloy";
 import { Renderer } from "../renderer";
 import { createErrorElement, createNullElement, timeToString } from "./utils";
 

@@ -12,12 +12,12 @@
  * GNU General Public License for more details.
  */
 
-import { ModelDef, Query, StructDef } from "@malloydata/malloy";
+import { ModelDef, Query, StructDef } from "@chenliu9/malloy";
 import { fStringEq, fStringLike } from "./test_utils";
 
-import * as malloy from "@malloydata/malloy";
+import * as malloy from "@chenliu9/malloy";
 import { RuntimeList } from "./runtimes";
-import { StructRelationship } from "@malloydata/malloy/src/model";
+import { StructRelationship } from "@chenliu9/malloy/src/model";
 
 const runtimes = new RuntimeList(["bigquery"]);
 

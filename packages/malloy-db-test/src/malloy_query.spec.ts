@@ -15,9 +15,9 @@ import { test } from "@jest/globals";
 import { testModel } from "./models/faa_model";
 import { fStringEq } from "./test_utils";
 
-import * as malloy from "@malloydata/malloy";
+import * as malloy from "@chenliu9/malloy";
 
-import { Query } from "@malloydata/malloy";
+import { Query } from "@chenliu9/malloy";
 import { RuntimeList } from "./runtimes";
 
 const runtimeList = new RuntimeList(["bigquery"]);

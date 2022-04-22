@@ -12,7 +12,7 @@
  */
 
 import { TextDocument } from "vscode-languageserver-textdocument";
-import { HighlightType, Malloy } from "@malloydata/malloy";
+import { HighlightType, Malloy } from "@chenliu9/malloy";
 import {
   SemanticTokens,
   SemanticTokensBuilder,

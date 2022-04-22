@@ -12,7 +12,7 @@
  */
 
 import * as lite from "vega-lite";
-import { DataColumn, Explore, Field } from "@malloydata/malloy";
+import { DataColumn, Explore, Field } from "@chenliu9/malloy";
 import { HTMLChartRenderer } from "./chart";
 import { cloneDeep } from "lodash";
 import { getColorScale } from "./utils";

@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-import { DataArrayOrRecord } from "@malloydata/malloy";
+import { DataArrayOrRecord } from "@chenliu9/malloy";
 import { StyleDefaults } from "../data_styles";
 import { getDrillQuery } from "../drill";
 import { ContainerRenderer } from "./container";

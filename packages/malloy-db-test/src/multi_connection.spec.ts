@@ -14,8 +14,8 @@
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 
-import * as malloy from "@malloydata/malloy";
-import { EmptyURLReader } from "@malloydata/malloy";
+import * as malloy from "@chenliu9/malloy";
+import { EmptyURLReader } from "@chenliu9/malloy";
 import { BigQueryTestConnection, PostgresTestConnection } from "./runtimes";
 
 const bqConnection = new BigQueryTestConnection(

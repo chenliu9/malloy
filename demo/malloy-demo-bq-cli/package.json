@@ -17,7 +17,7 @@
     "run": "ts-node src/entry.ts"
   },
   "dependencies": {
-    "@malloydata/malloy": "*",
-    "@malloydata/db-bigquery": "*"
+    "@chenliu9/malloy": "*",
+    "@chenliu9/db-bigquery": "*"
   }
 }

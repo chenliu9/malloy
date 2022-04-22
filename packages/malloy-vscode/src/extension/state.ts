@@ -12,7 +12,7 @@
  */
 
 import { TextDocument, WebviewPanel } from "vscode";
-import { Result } from "@malloydata/malloy";
+import { Result } from "@chenliu9/malloy";
 import {
   QueryPanelMessage,
   WebviewMessageManager,

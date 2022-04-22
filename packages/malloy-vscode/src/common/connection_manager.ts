@@ -11,13 +11,13 @@
  * GNU General Public License for more details.
  */
 
-import { BigQueryConnection } from "@malloydata/db-bigquery";
-import { PostgresConnection } from "@malloydata/db-postgres";
+import { BigQueryConnection } from "@chenliu9/db-bigquery";
+import { PostgresConnection } from "@chenliu9/db-postgres";
 import {
   FixedConnectionMap,
   Connection,
   TestableConnection,
-} from "@malloydata/malloy";
+} from "@chenliu9/malloy";
 import {
   ConnectionBackend,
   ConnectionConfig,

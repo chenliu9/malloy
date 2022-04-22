@@ -11,10 +11,10 @@
  * GNU General Public License for more details.
  */
 
-import { ModelDef, StructDef } from "@malloydata/malloy";
+import { ModelDef, StructDef } from "@chenliu9/malloy";
 import { medicareModel, medicareStateFacts } from "./medicare_model";
 import { fStringEq, fYearEq } from "../test_utils";
-import { StructRelationship } from "@malloydata/malloy/src/model";
+import { StructRelationship } from "@chenliu9/malloy/src/model";
 
 function withJoin(leftKey: string, rightKey: string): StructRelationship {
   return {

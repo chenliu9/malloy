@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-import { DataArray } from "@malloydata/malloy";
+import { DataArray } from "@chenliu9/malloy";
 import * as lite from "vega-lite";
 import { HTMLChartRenderer } from "./chart";
 import { getColorScale } from "./utils";

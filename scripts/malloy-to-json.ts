@@ -13,8 +13,8 @@
 /* eslint-disable no-console */
 import * as readline from "readline";
 import { inspect } from "util";
-import { MalloyTranslator, Connection } from "@malloydata/malloy";
-import { BigQueryConnection } from "@malloydata/db-bigquery";
+import { MalloyTranslator, Connection } from "@chenliu9/malloy";
+import { BigQueryConnection } from "@chenliu9/db-bigquery";
 import { readFileSync } from "fs";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any,@typescript-eslint/explicit-module-boundary-types

@@ -33,10 +33,10 @@ import {
   NamedStructDefs,
   SQLBlock,
   Connection,
-} from "@malloydata/malloy";
-import { parseTableURL } from "@malloydata/malloy";
-import { PooledConnection } from "@malloydata/malloy";
-import { PersistSQLResults } from "@malloydata/malloy/src/runtime_types";
+} from "@chenliu9/malloy";
+import { parseTableURL } from "@chenliu9/malloy";
+import { PooledConnection } from "@chenliu9/malloy";
+import { PersistSQLResults } from "@chenliu9/malloy/src/runtime_types";
 
 export interface BigQueryManagerOptions {
   credentials?: {

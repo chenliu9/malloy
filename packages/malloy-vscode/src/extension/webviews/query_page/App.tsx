@@ -11,8 +11,8 @@
  * GNU General Public License for more details.
  */
 
-import { Result } from "@malloydata/malloy";
-import { HTMLView } from "@malloydata/render";
+import { Result } from "@chenliu9/malloy";
+import { HTMLView } from "@chenliu9/render";
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import {

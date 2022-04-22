@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-import { DataColumn } from "@malloydata/malloy";
+import { DataColumn } from "@chenliu9/malloy";
 import { Renderer } from "../renderer";
 import { createErrorElement } from "./utils";
 

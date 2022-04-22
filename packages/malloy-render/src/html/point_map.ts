@@ -17,7 +17,7 @@ import {
   DataColumn,
   Field,
   TimestampTimeframe,
-} from "@malloydata/malloy";
+} from "@chenliu9/malloy";
 import usAtlas from "us-atlas/states-10m.json";
 import { HTMLChartRenderer } from "./chart";
 import { getColorScale, timeToString } from "./utils";

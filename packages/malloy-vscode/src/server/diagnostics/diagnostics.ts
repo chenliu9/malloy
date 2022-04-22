@@ -16,7 +16,7 @@ import {
   DiagnosticSeverity,
   TextDocuments,
 } from "vscode-languageserver/node";
-import { LogMessage, MalloyError } from "@malloydata/malloy";
+import { LogMessage, MalloyError } from "@chenliu9/malloy";
 import { TextDocument } from "vscode-languageserver-textdocument";
 import { translateWithCache } from "../translate_cache";
 

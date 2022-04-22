@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-import { DataColumn, Field } from "@malloydata/malloy";
+import { DataColumn, Field } from "@chenliu9/malloy";
 import { HTMLCartesianChartRenderer } from "./cartesian_chart";
 
 export class HTMLScatterChartRenderer extends HTMLCartesianChartRenderer {

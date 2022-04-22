@@ -13,8 +13,8 @@
 
 import fs from "fs";
 import path from "path";
-import { Runtime, URL } from "@malloydata/malloy";
-import { BigQueryConnection } from "@malloydata/db-bigquery";
+import { Runtime, URL } from "@chenliu9/malloy";
+import { BigQueryConnection } from "@chenliu9/db-bigquery";
 
 const SAMPLE_PROJECT_ROOT = path.join(__dirname, "../../../samples");
 

@@ -11,7 +11,7 @@
  * GNU General Public License for more details.
  */
 
-import { FilterExpression, Fragment } from "@malloydata/malloy";
+import { FilterExpression, Fragment } from "@chenliu9/malloy";
 
 export function fStringEq(field: string, value: string): FilterExpression {
   return {

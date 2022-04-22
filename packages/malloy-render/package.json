@@ -1,5 +1,5 @@
 {
-  "name": "@malloydata/render",
+  "name": "@chenliu9/render",
   "version": "0.0.1",
   "license": "GPL-2.0",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "build": "yarn tsc --build"
   },
   "dependencies": {
-    "@malloydata/malloy": "*",
+    "@chenliu9/malloy": "*",
     "us-atlas": "^3.0.0"
   }
 }

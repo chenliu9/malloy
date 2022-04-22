@@ -12,7 +12,7 @@
  */
 
 import { TextDocuments } from "vscode-languageserver/node";
-import { Model, Runtime, URL } from "@malloydata/malloy";
+import { Model, Runtime, URL } from "@chenliu9/malloy";
 import { TextDocument } from "vscode-languageserver-textdocument";
 import * as fs from "fs";
 import { CONNECTION_MANAGER } from "./connections";

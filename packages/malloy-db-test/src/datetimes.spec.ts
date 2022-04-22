@@ -14,7 +14,7 @@
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 
-import { Result } from "@malloydata/malloy";
+import { Result } from "@chenliu9/malloy";
 import { RuntimeList } from "./runtimes";
 
 // No prebuilt shared model, each test is complete.  Makes debugging easier.

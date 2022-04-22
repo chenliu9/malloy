@@ -12,7 +12,7 @@
  * GNU General Public License for more details.
  */
 
-import * as malloy from "@malloydata/malloy";
+import * as malloy from "@chenliu9/malloy";
 import { RuntimeList } from "./runtimes";
 
 const runtimes = new RuntimeList([

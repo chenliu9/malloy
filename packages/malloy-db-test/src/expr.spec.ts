@@ -14,7 +14,7 @@
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 
-import * as malloy from "@malloydata/malloy";
+import * as malloy from "@chenliu9/malloy";
 import { RuntimeList } from "./runtimes";
 
 const runtimes = new RuntimeList([

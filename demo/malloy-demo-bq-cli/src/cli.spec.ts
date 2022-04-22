@@ -10,7 +10,7 @@
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
  * GNU General Public License for more details.
  */
-import { InMemoryURLReader } from "@malloydata/malloy";
+import { InMemoryURLReader } from "@chenliu9/malloy";
 import { run, pathToURL } from "./index";
 
 const unModeledQuery =

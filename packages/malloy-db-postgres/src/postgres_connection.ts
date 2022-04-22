@@ -21,8 +21,8 @@ import {
   parseTableURL,
   SQLBlock,
   Connection,
-} from "@malloydata/malloy";
-import { PersistSQLResults } from "@malloydata/malloy/src/runtime_types";
+} from "@chenliu9/malloy";
+import { PersistSQLResults } from "@chenliu9/malloy/src/runtime_types";
 import { Client, Pool } from "pg";
 
 const postgresToMalloyTypes: { [key: string]: AtomicFieldTypeInner } = {

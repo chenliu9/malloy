@@ -18,7 +18,7 @@ import {
   MarkupKind,
 } from "vscode-languageserver/node";
 import { TextDocument } from "vscode-languageserver-textdocument";
-import { Malloy } from "@malloydata/malloy";
+import { Malloy } from "@chenliu9/malloy";
 import { COMPLETION_DOCS } from "./completion_docs";
 
 export function getCompletionItems(

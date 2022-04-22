@@ -16,9 +16,9 @@ import {
   Result,
   MalloyQueryData,
   SingleConnectionRuntime,
-} from "@malloydata/malloy";
-import { BigQueryConnection } from "@malloydata/db-bigquery";
-import { PooledPostgresConnection } from "@malloydata/db-postgres";
+} from "@chenliu9/malloy";
+import { BigQueryConnection } from "@chenliu9/db-bigquery";
+import { PooledPostgresConnection } from "@chenliu9/db-postgres";
 
 export class BigQueryTestConnection extends BigQueryConnection {
   // we probably need a better way to do this.

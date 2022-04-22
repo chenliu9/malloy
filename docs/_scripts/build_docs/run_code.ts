@@ -17,15 +17,15 @@
  * that depend on that model. If `--watch` is enabled, changes to a model file
  * will cause relevant documents to recompile.
  */
-import { DataStyles, HTMLView } from "@malloydata/render";
+import { DataStyles, HTMLView } from "@chenliu9/render";
 import {
   Runtime,
   URL,
   URLReader,
   QueryMaterializer,
   SQLBlockMaterializer,
-} from "@malloydata/malloy";
-import { BigQueryConnection } from "@malloydata/db-bigquery";
+} from "@chenliu9/malloy";
+import { BigQueryConnection } from "@chenliu9/db-bigquery";
 import path from "path";
 import { promises as fs } from "fs";
 import { performance } from "perf_hooks";

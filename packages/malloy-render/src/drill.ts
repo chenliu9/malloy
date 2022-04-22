@@ -18,7 +18,7 @@ import {
   DataArrayOrRecord,
   Explore,
   DataArray,
-} from "@malloydata/malloy";
+} from "@chenliu9/malloy";
 import { timeToString } from "./html/utils";
 
 type FilterItem = { key: string; value: string | undefined };

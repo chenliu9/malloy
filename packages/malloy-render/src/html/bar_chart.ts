@@ -11,8 +11,8 @@
  * GNU General Public License for more details.
  */
 
-import { DataColumn, Field } from "@malloydata/malloy";
-import { AtomicFieldType } from "@malloydata/malloy";
+import { DataColumn, Field } from "@chenliu9/malloy";
+import { AtomicFieldType } from "@chenliu9/malloy";
 import {
   BarChartRenderOptions,
   ChartSize,

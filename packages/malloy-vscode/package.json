@@ -313,10 +313,10 @@
     ]
   },
   "dependencies": {
-    "@malloydata/db-bigquery": "*",
-    "@malloydata/db-postgres": "*",
-    "@malloydata/malloy": "*",
-    "@malloydata/render": "*",
+    "@chenliu9/db-bigquery": "*",
+    "@chenliu9/malloy-db-postgres": "*",
+    "@chenliu9/malloy": "*",
+    "@chenliu9/render": "*",
     "@microsoft/fast-react-wrapper": "^0.1.21",
     "@observablehq/plot": "^0.1.0",
     "@vscode/webview-ui-toolkit": "^0.8.5",
