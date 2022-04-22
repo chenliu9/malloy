@@ -1,6 +1,6 @@
 {
   "name": "@chenliu9/malloy-db-postgres",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "GPL-2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,12 +12,12 @@
     "malloyc": "ts-node ../../scripts/malloy-to-json"
   },
   "dependencies": {
-    "@types/pg": "^8.6.1",
     "@chenliu9/malloy": "*",
+    "@types/pg": "^8.6.1",
     "pg": "^8.7.1"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
