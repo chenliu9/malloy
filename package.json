@@ -5,8 +5,8 @@
   "name": "malloy",
   "workspaces": {
     "packages": [
-      "packages/malloy",
-      "packages/malloy-db-postgres"
+      "packages/*",
+      "demo/*"
     ]
   },
   "engines": {
