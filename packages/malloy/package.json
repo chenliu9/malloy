@@ -1,6 +1,6 @@
 {
   "name": "@chenliu9/malloy",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "license": "GPL-2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
