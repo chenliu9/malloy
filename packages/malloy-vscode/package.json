@@ -314,8 +314,8 @@
   },
   "dependencies": {
     "@chenliu9/db-bigquery": "*",
-    "@chenliu9/malloy-db-postgres": "*",
     "@chenliu9/malloy": "*",
+    "@chenliu9/malloy-db-postgres": "*",
     "@chenliu9/render": "*",
     "@microsoft/fast-react-wrapper": "^0.1.21",
     "@observablehq/plot": "^0.1.0",

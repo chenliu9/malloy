@@ -12,7 +12,7 @@
  */
 
 import { BigQueryConnection } from "@chenliu9/db-bigquery";
-import { PostgresConnection } from "@chenliu9/db-postgres";
+import { PostgresConnection } from "@chenliu9/malloy-db-postgres";
 import {
   FixedConnectionMap,
   Connection,

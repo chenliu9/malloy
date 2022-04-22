@@ -48,7 +48,7 @@ const malloyPackages = [
   "malloy-vscode",
   "@chenliu9/db-test",
   "@chenliu9/db-bigquery",
-  "@chenliu9/db-postgres",
+  "@chenliu9/malloy-db-postgres",
 ];
 
 // licenses that we would need to mirror source for, if we included (we don't today)

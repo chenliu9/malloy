@@ -18,7 +18,7 @@ import {
   SingleConnectionRuntime,
 } from "@chenliu9/malloy";
 import { BigQueryConnection } from "@chenliu9/db-bigquery";
-import { PooledPostgresConnection } from "@chenliu9/db-postgres";
+import { PooledPostgresConnection } from "@chenliu9/malloy-db-postgres";
 
 export class BigQueryTestConnection extends BigQueryConnection {
   // we probably need a better way to do this.

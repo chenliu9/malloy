@@ -12,7 +12,7 @@
     "malloyc": "ts-node ../../scripts/malloy-to-json"
   },
   "dependencies": {
-    "@chenliu9/malloy": "*",
-    "@chenliu9/db-bigquery": "*"
+    "@chenliu9/db-bigquery": "*",
+    "@chenliu9/malloy": "*"
   }
 }

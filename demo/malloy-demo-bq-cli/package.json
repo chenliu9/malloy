@@ -3,9 +3,7 @@
   "version": "0.0.1",
   "license": "GPL-2.0",
   "main": "dist/entry.js",
-  "bin": {
-    "malloy-demo-bq-cli": "dist/entry.js"
-  },
+  "bin": "dist/entry.js",
   "types": "dist/entry.d.ts",
   "scripts": {
     "lint": "eslint '**/*.ts{,x}'",
@@ -17,7 +15,7 @@
     "run": "ts-node src/entry.ts"
   },
   "dependencies": {
-    "@chenliu9/malloy": "*",
-    "@chenliu9/db-bigquery": "*"
+    "@chenliu9/db-bigquery": "*",
+    "@chenliu9/malloy": "*"
   }
 }

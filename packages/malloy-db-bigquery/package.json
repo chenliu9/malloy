@@ -12,9 +12,9 @@
     "malloyc": "ts-node ../../scripts/malloy-to-json"
   },
   "dependencies": {
+    "@chenliu9/malloy": "*",
     "@google-cloud/bigquery": "^5.5.0",
     "@google-cloud/common": "^3.6.0",
-    "gaxios": "^4.2.0",
-    "@chenliu9/malloy": "*"
+    "gaxios": "^4.2.0"
   }
 }
