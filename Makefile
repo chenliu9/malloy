@@ -27,7 +27,7 @@ malloy-db-postgres_package:
 
 malloy-vs-code:
 		@echo "Install and build malloy-db-postgres packages"
-		cd ${MALLOY_VSCODE} && yarn install && yarn build && yarn build-extension && yarn package-extension
+		cd ${MALLOY_VSCODE} && yarn --version && yarn install && yarn build-extension && yarn package-extension
 
 publish:
 		@echo "Publish malloy-db-postgres"
