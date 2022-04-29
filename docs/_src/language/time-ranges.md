@@ -45,7 +45,7 @@ at the moment of truncation and the duration is the timeframe unit
 used to specify the truncation, so for example `eventDate.year`
 would be a range covering the entire year which contains `eventDate`
 
-This is extremely useful with the [Apply operator](apply.md), `:`. To see if two events happen in the same calendar year, for example, the boolean expression in Malloy is `oneEvent: otherEvent.year`
+This is extremely useful with the [Apply operator](apply.md), `?`. To see if two events happen in the same calendar year, for example, the boolean expression in Malloy is `oneEvent ? otherEvent.year`
 
 ## Extraction
 
@@ -84,7 +84,7 @@ These will return a negative number if t1 is later than t2.
 
 ## Literals
 
-Time literals are specified in malloy with the `@` character. A literal
+Time literals are specified in Malloy with the `@` character. A literal
 specified this way has an implied duration which means a literal
 can act like a range.
 
