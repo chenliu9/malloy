@@ -9,7 +9,7 @@ MALLOY_PACKAGE_DIR := ${MAKEFILE_DIR}packages/malloy
 MALLOY_POSTGRES_DIR := ${MAKEFILE_DIR}packages/malloy-db-postgres
 MALLOY_VSCODE :=  ${MAKEFILE_DIR}packages/malloy-vscode
 
-all: workspaces malloy_package malloy-db-postgres_package
+all: malloy_package malloy-db-postgres_package
 
 vscode: malloy-vs-code
 

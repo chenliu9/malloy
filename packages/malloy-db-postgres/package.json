@@ -1,6 +1,6 @@
 {
   "name": "@chenliu9/malloy-db-postgres",
-  "version": "0.0.16",
+  "version": "0.0.19",
   "license": "GPL-2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,7 +12,7 @@
     "malloyc": "ts-node ../../scripts/malloy-to-json"
   },
   "dependencies": {
-    "@chenliu9/malloy": "*",
+    "@chenliu9/malloy": "^0.0.19",
     "@types/md5": "^2.3.2",
     "@types/pg": "^8.6.1",
     "md5": "^2.3.0",
