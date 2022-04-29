@@ -1,6 +1,6 @@
 {
   "name": "@chenliu9/malloy-db-postgres",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "license": "GPL-2.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

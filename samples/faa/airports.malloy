@@ -2,6 +2,7 @@
 query: table('public.HolidayEvent') -> {
   project: *
   limit: 10
+}
 -- --! styles airports.styles.json
 
 // source: airports is table('malloy-data.faa.airports') {
